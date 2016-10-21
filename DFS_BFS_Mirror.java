@@ -676,7 +676,7 @@ public class DFS_BFS_Mirror extends javax.swing.JFrame
 
     private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
         String[] options = {"OK"};
-        JOptionPane.showOptionDialog(null,"Rules:\n\n1. Click on Blue Screen to create nodes.\n2. Press mouse on any node and Drag mouse to any other node to create a Vertex.", "Rules", JOptionPane.NO_OPTION, JOptionPane.INFORMATION_MESSAGE, null, options , options[0]);
+        JOptionPane.showOptionDialog(null,"Rules:\n\n1. Click on Blue Screen to create nodes.\n2. Press mouse on any node and Drag mouse to any other node to create an Edge.", "Rules", JOptionPane.NO_OPTION, JOptionPane.INFORMATION_MESSAGE, null, options , options[0]);
     }//GEN-LAST:event_jButton1MouseClicked
 
 private void formWindowIconified(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowIconified
